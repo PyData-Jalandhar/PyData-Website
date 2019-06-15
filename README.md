@@ -1,11 +1,13 @@
-## Available Scripts
+## Stack
 
-### `yarn install`
+    ReactJs
 
-    Install packages.
+### `Run`
 
-### `yarn start`
+    yarn install
 
-    Run the project.
+### `To start development server`
 
-Made by Anushka Beri and Rahul Syal for PyData Jalandhar.
+    yarn start
+
+Made by Rahul Syal(<https://github.com/rahulsyal2512>) and Anushka Beri(<https://github.com/thisbutterfly)> for PyData Jalandhar.
