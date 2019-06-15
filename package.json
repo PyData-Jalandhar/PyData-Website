@@ -1,6 +1,6 @@
 {
   "name": "pydata",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "bulma": "^0.7.5",
@@ -29,5 +29,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "ReactJs",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PyData-Jalandhar/pydata-website.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Rahul Syal, Anushka Beri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PyData-Jalandhar/pydata-website/issues"
+  },
+  "homepage": "https://github.com/PyData-Jalandhar/pydata-website#readme"
 }
