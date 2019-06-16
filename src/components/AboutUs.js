@@ -40,8 +40,8 @@ export default class AboutUs extends React.Component{
                 <Space className="columns"></Space>
 
                     <div className="columns is-vcentered">
-                        <ImageOne className="column is-3 is-offset-3"/>
-                        <div className= "column is-4">
+                        <ImageOne className="column is-3 is-offset-2"/>
+                        <div className= "column is-5 has-text-justified">
                             <h2 className="is-size-4 has-text-weight-bold has-text-black">Open-Source Community
                             </h2> <br /><br />
                             <h3 className="is-size-5 has-text-grey">Our community is diverse and highly motivated. It helps to help create and maintain communication within and among open source projects; motivate and efficiency organize groups of remote individuals.</h3>
@@ -49,7 +49,7 @@ export default class AboutUs extends React.Component{
                     </div>
 
                     <div className="columns is-vcentered">
-                        <div className= "column is-4 is-offset-3">
+                        <div className= "column is-5 is-offset-2 has-text-justified">
                             <h2 className="is-size-4 has-text-weight-bold has-text-black">Meetups
                             </h2> <br /><br />
                             <h3 className="is-size-5 has-text-grey">Meetups are the best way to collaborate. They help the community to grow not only in context to members but also contributing to giving talks and making members aware of latest technological trends and making them learna and work on new things.</h3>
