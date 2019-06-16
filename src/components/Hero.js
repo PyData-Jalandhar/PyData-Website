@@ -6,6 +6,7 @@ import Header from './Header';
 const Background = styled.section`
     background-image: url(${Image});
     background-size: cover;
+    background-attachment: fixed;
 `;
 
 export default class Hero extends React.Component{
