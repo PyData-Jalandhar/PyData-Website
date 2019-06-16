@@ -22,11 +22,14 @@ export default class Header extends React.Component{
                         <a className="navbar-item has-text-white is-size-5" href="#about">
                             About Us
                         </a>
-                        <a className="navbar-item has-text-white is-size-5" href="https://bulma.io/">
+                        <a className="navbar-item has-text-white is-size-5" href="#events">
                             Events
                         </a>
-                        <a className="navbar-item has-text-white is-size-5" href="https://bulma.io/">
+                        <a className="navbar-item has-text-white is-size-5" href="#team">
                             Team
+                        </a>
+                        <a className="navbar-item has-text-white is-size-5" href="#contact">
+                            Contact Us
                         </a>
                     </div>
                 </div>

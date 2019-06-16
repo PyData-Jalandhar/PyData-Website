@@ -26,12 +26,16 @@ const Text = styled.p`
     color: #8B008B;
 `;
 
+const Icon= styled.span`
+    margin: 0.75rem;
+`;
+
 const Contact = () => (
-<div className="section">
-<div className="columns" id="contact">
+<div className="section" id="contact">
+<div className="columns">
     <div className="column has-text-centered">
     <Heading className="is-size-2 has-text-black">
-        CONTACT
+        Contact
     </Heading>
     <br />
     <div className="column has-text-centered">
@@ -108,20 +112,28 @@ const Contact = () => (
 <div className="columns">
     <div className="column is-2 is-offset-2 has-text-centered">
     <p>
-        <i className="fas fa-map-marker-alt is-size-4 has-text-light" />
     </p>
     <Text className="is-size-5">Follow US</Text>
     <p className="is-size-5 has-text-grey has-text-centered">
-        B.R.S. Nagar Ludhiana, 141012, Punjab
+        <Icon>
+            <a href= "https://www.instagram.com/pyjalandhar/" target="blank_"> <i className="is-size-3 fab fa-instagram has-text-grey"> 
+            </i></a>
+        </Icon>
+        <Icon>
+            <a href="https://twitter.com/PydataJ" target="blank_"><i className="is-size-3 fab fa-twitter-square has-text-grey">
+            </i></a>
+        </Icon>
+        <Icon>
+            <a href="https://www.facebook.com/pydatajalandhar/" target="blank_"><i className="is-size-3 fab fa-facebook-square has-text-grey"></i></a>
+        </Icon>
     </p>
     </div>
     <div className="column is-2 is-offset-1 has-text-centered">
     <p>
-        <i className="far fa-envelope is-size-4 has-text-light" />
     </p>
     <Text className="is-size-5">EMAIL US AT</Text>
     <p className="is-size-5 has-text-grey has-text-centered">
-        berianushka@gmail.com
+        pydatajalandhar@gmail.com
     </p>
     </div>
 </div>
