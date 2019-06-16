@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Image from '../assets/hero.jpg';
+import Image from '../assets/hero6.jpg';
 import Header from './Header';
 
 const Background = styled.section`
