@@ -39,12 +39,13 @@ const Contact = () => (
     </Heading>
     <br />
     <div className="column has-text-centered">
-        <span className="is-size-2 has-text-weight-bold has-text-grey">
+        <span className="is-size-4 has-text-weight-bold has-text-grey">
         We'd Love To Hear From You.
         </span>
         <br />
         <p
-        className="is-size-5 has-text-grey has-text-centered">
+        style={{fontSize: "15px"}}
+        className="has-text-grey has-text-centered">
         Ping us below for joining the community or for asking any queries.
         </p>
     </div>
@@ -54,45 +55,49 @@ const Contact = () => (
     <div className="columns">
     <div className="column is-6 is-offset-3">
         <div className="field">
-        <label className="label has-text-black is-size-5">Name</label>
+        <label className="label has-text-black" style={{fontSize: "16px"}}>Name</label>
         <div className="control">
             <Box
             id="name"
-            className="input has-text-black is-size-5"
+            className="input has-text-black"
             type="text"
             placeholder="Name"
+            style={{height: "35px"}}
             />
         </div>
         </div>
         <div className="field">
-        <label className="label has-text-black is-size-5">Email</label>
+        <label className="label has-text-black" style={{fontSize: "16px"}}>Email</label>
         <div className="control">
             <Box
             id="email"
-            className="input has-text-black is-size-5"
+            className="input has-text-black"
             type="text"
             placeholder="Email"
+            style={{height: "35px"}}
             />
         </div>
         </div>
         <div className="field">
-        <label className="label has-text-black is-size-5">Subject</label>
+        <label className="label has-text-black" style={{fontSize: "16px"}}>Subject</label>
         <div className="control">
             <Box
             id="subject"
-            className="input has-text-black is-size-5"
+            className="input has-text-black"
             type="text"
             placeholder="Subject"
+            style={{height: "35px"}}
             />
         </div>
         </div>
         <div className="field">
-        <label className="label has-text-black is-size-5">Message</label>
+        <label className="label has-text-black" style={{fontSize: "16px"}}>Message</label>
         <div className="control">
             <BoxTwo
             id="message"
             // eslint-disable-next-line max-len
-            className="textarea has-text-black is-size-5"
+            className="textarea has-text-black"
+            rows="2"
             placeholder="Message"
             />
         </div>

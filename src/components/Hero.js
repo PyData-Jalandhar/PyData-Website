@@ -17,7 +17,7 @@ export default class Hero extends React.Component{
                 <section className="hero is-fullheight">
                 <div className="hero-body">
                     <div className="container">
-                    <h1 className="title has-text-white">
+                    <h1 className="title has-text-white is-size-1">
                         PyData Jalandhar
                     </h1>
                     <h2 className="subtitle has-text-white">
