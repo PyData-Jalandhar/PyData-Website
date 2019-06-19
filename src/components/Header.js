@@ -14,6 +14,10 @@ const Text = styled.a`
   font-size: 15px;
 `;
 
+const Link = styled.a`
+  color: #fff;
+`
+
 export default class Header extends React.Component {
   state = {
     backgroundColor: "transparent",
@@ -53,7 +57,7 @@ export default class Header extends React.Component {
           }}
         >
           <div className="navbar-brand">
-            <Heading className="is-size-3 has-text-weight-bold">PyData</Heading>
+              <Link style={{ color }}><Heading className="is-size-3 has-text-weight-bold">PyData</Heading></Link>
           </div>
           <div id="navbarExampleTransparentExample" className="navbar-menu">
             <div className="navbar-end">
