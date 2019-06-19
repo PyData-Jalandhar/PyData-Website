@@ -57,7 +57,9 @@ export default class Header extends React.Component {
           }}
         >
           <div className="navbar-brand">
-              <Link style={{ color }}><Heading className="is-size-3 has-text-weight-bold">PyData</Heading></Link>
+              <Link style={{ color }} href="./Hero.js">
+                <Heading className="is-size-3 has-text-weight-bold">PyData</Heading>
+              </Link>
           </div>
           <div id="navbarExampleTransparentExample" className="navbar-menu">
             <div className="navbar-end">
