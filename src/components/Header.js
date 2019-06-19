@@ -6,6 +6,14 @@ const Navbar = styled.nav`
   padding-top: 1rem;
 `;
 
+const Heading = styled.span`
+  margin-left: 2rem;
+`;
+
+const Text = styled.a`
+  font-size: 15px;
+`;
+
 export default class Header extends React.Component {
   state = {
     backgroundColor: "transparent",
@@ -35,7 +43,7 @@ export default class Header extends React.Component {
     return (
       <div className="container-fluid" id="home">
         <Navbar
-          className="navbar is-fixed-top"
+          className="navbar is-fixed-top is-transparent"
           style={{
             backgroundColor,
             color,
@@ -45,45 +53,45 @@ export default class Header extends React.Component {
           }}
         >
           <div className="navbar-brand">
-            <span className="is-size-3 has-text-weight-bold">PyData</span>
+            <Heading className="is-size-3 has-text-weight-bold">PyData</Heading>
           </div>
           <div id="navbarExampleTransparentExample" className="navbar-menu">
             <div className="navbar-end">
-              <a
+              <Text
                 className="navbar-item"
-                style={{ color, fontSize: "15px" }}
+                style={{ color }}
                 href="#home"
               >
                 Home
-              </a>
-              <a
+              </Text>
+              <Text
                 className="navbar-item"
-                style={{ color, fontSize: "15px" }}
+                style={{ color }}
                 href="#about"
               >
                 About Us
-              </a>
-              <a
+              </Text>
+              <Text
                 className="navbar-item"
-                style={{ color, fontSize: "15px" }}
+                style={{ color }}
                 href="#events"
               >
                 Events
-              </a>
-              <a
+              </Text>
+              <Text
                 className="navbar-item"
-                style={{ color, fontSize: "15px" }}
+                style={{ color }}
                 href="#team"
               >
                 Team
-              </a>
-              <a
+              </Text>
+              <Text
                 className="navbar-item"
-                style={{ color, fontSize: "15px" }}
+                style={{ color }}
                 href="#contact"
               >
                 Contact Us
-              </a>
+              </Text>
             </div>
           </div>
         </Navbar>
