@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import TeamsCard from "../common/TeamsCard";
+import TeamsCard from "../common/TeamsCard";
 import "./index.scss";
 
 const TeamContainer = styled.div`
@@ -13,7 +13,7 @@ const Heading = styled.p`
 `;
 
 const CardContainer = styled.div`
-  width: 87.5%;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -27,6 +27,36 @@ const Card = styled.div`
   margin: 30px 20px;
 `;
 
+const MEMBERS_DATA = [{
+  name: "Abhay Puri",
+  imageUrl: "https://res.cloudinary.com/dssa0shmr/image/upload/c_scale,f_auto,h_320,w_270/v1561109758/Pydata/abhay_ffbypb.jpg"
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+},
+{
+  name: "Abhau Puri",
+  imageUrl: ""
+}
+]
+
 export default class Team extends React.Component {
   render() {
     return (
@@ -35,6 +65,12 @@ export default class Team extends React.Component {
           <Heading className="is-size-2 has-text-black">Team Members</Heading>
         </div>
         <CardContainer>
+          {/* <TeamsCard />
+          <TeamsCard />
+          <TeamsCard />
+          <TeamsCard />
+          <TeamsCard />
+          <TeamsCard /> */}
           <Card>
             <div class="card__collection clear-fix">
               <div class="cards cards--three">
