@@ -11,9 +11,7 @@ const Background = styled.section`
 const HeadingContainer = styled.div`
   margin-left: 3.5rem;
 `;
-const Title = styled.p`
-  font-size: 50px;
-`;
+
 export default class Hero extends React.Component {
   render() {
     return (
@@ -22,8 +20,8 @@ export default class Hero extends React.Component {
         <section className="hero is-fullheight">
           <div className="hero-body">
             <HeadingContainer className="container">
-              <Title className="title has-text-white">PyData Jalandhar</Title>
-              <h2 className="subtitle has-text-white">
+              <p className="title has-text-white column is-4 is-offset-2 is-size-2">PyData Jalandhar</p>
+              <h2 className="subtitle has-text-white column is-6 is-offset-2 is-size-4">
                 Become a part of the largest open source community.
               </h2>
             </HeadingContainer>
