@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import PictureOne from '../assets/picture1.png';
-import PictureTwo from '../assets/picture2.png';
+import PictureOne from '../assets/open-source.png';
+import PictureTwo from '../assets/meeting.png';
 
 const Heading = styled.p`
     margin-top: 2rem;
@@ -15,15 +15,15 @@ const Space = styled.div`
 const ImageOne = styled.div`
     background-image: url(${PictureOne});
     background-size: cover;
-    height: 30rem;
-    width: 100%;
+    height: 20rem;
+    width: 20rem;
 `;
 
 const ImageTwo = styled.div`
     background-image: url(${PictureTwo});
     background-size: cover;
-    height: 30rem;
-    width: 100%;
+    height: 20rem;
+    width: 20rem;
 `;
 
 export default class AboutUs extends React.Component{
@@ -40,7 +40,9 @@ export default class AboutUs extends React.Component{
                 <Space className="columns"></Space>
 
                     <div className="columns is-vcentered">
-                        <ImageOne className="column is-3 is-offset-2"/>
+                        <div className="column is-3 is-offset-2">
+                            <ImageOne />
+                        </div>
                         <div className= "column is-5 has-text-justified">
                             <h2 className="is-size-4 has-text-weight-bold has-text-black">Open-Source Community
                             </h2> <br /><br />
@@ -54,7 +56,9 @@ export default class AboutUs extends React.Component{
                             </h2> <br /><br />
                             <h3 className="is-size-5 has-text-grey">Meetups are the best way to collaborate. They help the community to grow not only in context to members but also contributing to giving talks and making members aware of latest technological trends and making them learna and work on new things.</h3>
                         </div>
-                        <ImageTwo className="column is-3"/>
+                        <div className="column is-3">
+                            <ImageTwo />
+                        </div>
                     </div>
             </section>
         )

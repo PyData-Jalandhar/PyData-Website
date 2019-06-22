@@ -60,7 +60,7 @@ const MEMBERS_DATA = [{
 export default class Team extends React.Component {
   render() {
     return (
-      <TeamContainer>
+      <TeamContainer id="team">
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">Team Members</Heading>
         </div>

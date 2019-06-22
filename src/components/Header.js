@@ -7,11 +7,7 @@ const Navbar = styled.nav`
 `;
 
 const Heading = styled.span`
-  margin-left: 5rem;
-`;
-
-const MenuContainer = styled.div`
-  margin-right: 5rem;
+  margin-left: 2rem;
 `;
 
 const Text = styled.a`
@@ -20,7 +16,7 @@ const Text = styled.a`
 
 const Link = styled.a`
   color: #fff;
-`;
+`
 
 export default class Header extends React.Component {
   state = {
@@ -61,34 +57,49 @@ export default class Header extends React.Component {
           }}
         >
           <div className="navbar-brand">
-            <Link style={{ color }} href="./Hero.js">
-              <Heading className="is-size-3 has-text-weight-bold">
-                PyData
-              </Heading>
-            </Link>
+              <Link style={{ color }} href="./Hero.js">
+                <Heading className="is-size-3 has-text-weight-bold">PyData</Heading>
+              </Link>
           </div>
-          <MenuContainer
-            id="navbarExampleTransparentExample"
-            className="navbar-menu"
-          >
+          <div id="navbarExampleTransparentExample" className="navbar-menu">
             <div className="navbar-end">
-              <Text className="navbar-item" style={{ color }} href="#home">
+              <Text
+                className="navbar-item"
+                style={{ color }}
+                href="#home"
+              >
                 Home
               </Text>
-              <Text className="navbar-item" style={{ color }} href="#about">
+              <Text
+                className="navbar-item"
+                style={{ color }}
+                href="#about"
+              >
                 About Us
               </Text>
-              <Text className="navbar-item" style={{ color }} href="#events">
+              <Text
+                className="navbar-item"
+                style={{ color }}
+                href="#events"
+              >
                 Events
               </Text>
-              <Text className="navbar-item" style={{ color }} href="#team">
-                Team
+              <Text
+                className="navbar-item"
+                style={{ color }}
+                href="#team"
+              >
+                Team Members
               </Text>
-              <Text className="navbar-item" style={{ color }} href="#contact">
+              <Text
+                className="navbar-item"
+                style={{ color }}
+                href="#contact"
+              >
                 Contact Us
               </Text>
             </div>
-          </MenuContainer>
+          </div>
         </Navbar>
       </div>
     );
