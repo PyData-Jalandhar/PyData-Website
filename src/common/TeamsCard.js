@@ -6,8 +6,8 @@ const Card = styled.div`
   height: 300px;
   width: 250px;
   border-radius: 10px;
-  margin: 30px 20px;
-`;
+  margin: 33px 0px;
+  `;
 
 export default class TeamsCard extends Component {
   cards = () => {

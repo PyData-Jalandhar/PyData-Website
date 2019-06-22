@@ -5,7 +5,8 @@ import "./index.scss";
 
 const TeamContainer = styled.div`
   min-height: 500px;
-  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 `;
 
 const Heading = styled.p`
@@ -13,18 +14,10 @@ const Heading = styled.p`
 `;
 
 const CardContainer = styled.div`
-  max-width: 1100px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-`;
-
-const Card = styled.div`
-  height: 300px;
-  width: 250px;
-  border-radius: 10px;
-  margin: 30px 20px;
 `;
 
 const MEMBERS_DATA = [
