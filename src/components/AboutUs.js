@@ -78,7 +78,7 @@ export default class AboutUs extends React.Component {
             <Description className="is-size-5 has-text-grey">
               Our community is diverse and highly motivated. It helps to help
               create and maintain communication within and among open source
-              projects; motivate and efficiency organize groups of remote
+              projects motivate and efficiency organize groups of remote
               individuals.
             </Description>
           </div>
