@@ -50,7 +50,7 @@ const ImageTwo = styled.div`
 export default class AboutUs extends React.Component {
   render() {
     return (
-      <section class="hero is-large" id="about">
+      <section class="container-is-fluid" id="about">
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">About Us</Heading>
         </div>

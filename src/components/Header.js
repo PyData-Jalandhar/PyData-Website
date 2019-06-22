@@ -62,7 +62,7 @@ export default class Header extends React.Component {
   render() {
     const { backgroundColor, color, boxShadow } = this.state;
     return (
-      <div class="container-fluid" id="home">
+      <div class="container" id="home">
         <Navbar
           className="navbar is-fixed-top is-transparent"
           style={{
