@@ -12,17 +12,33 @@ const Space = styled.div`
   width: 100%;
 `;
 
-const Text = styled.h2`
-    @media only screen and (max-width:768px) {
-        text-align:center;
-    }
+const AboutSections = styled.div`
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 1200px) {
+    min-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    min-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    min-width: 1200px;
+  }
 `;
 
-const Description = styled.h3`
-    @media only screen and (max-width:768px) {
-        text-align:center;
-    }
-`;
+// const Text = styled.h2`
+//     @media only screen and (max-width:768px) {
+//         text-align:center;
+//     }
+// `;
+
+// const Description = styled.h3`
+//     @media only screen and (max-width:768px) {
+//         text-align:center;
+//     }
+// `;
 
 const ImageOne = styled.div`
   background-image: url(${PictureOne});
@@ -54,18 +70,60 @@ export default class AboutUs extends React.Component {
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">About Us</Heading>
         </div>
-        <div className="container has-text-centered">
+        <AboutSections className="has-text-centered">
           <p className="is-size-5 has-text-grey">
             PyData is an educational program of NumFOCUS, a non-profit
             organization in the United States. PyData provides a forum for the
             international community of users and developers of data analysis
             tools to share ideas and learn from each other.
           </p>
-        </div>
+        </AboutSections>
+        {/* <div className="container has-text-centered">
+          <p className="is-size-5 has-text-grey">
+            PyData is an educational program of NumFOCUS, a non-profit
+            organization in the United States. PyData provides a forum for the
+            international community of users and developers of data analysis
+            tools to share ideas and learn from each other.
+          </p>
+        </div> */}
 
         <Space className="columns" />
 
-        <div className="columns is-vcentered">
+        <AboutSections className="columns is-vcentered">
+          <ImageOne className="column is-5" />
+          <div className="column is-7 has-text-justified">
+            <h2 className="is-size-3 has-text-weight-bold has-text-black">
+              Open-Source Community
+            </h2>
+            <br />
+            <br />
+            <h3 className="is-size-5 has-text-grey">
+              Our community is diverse and highly motivated. It helps to help
+              create and maintain communication within and among open source
+              projects; motivate and efficiency organize groups of remote
+              individuals.
+            </h3>
+          </div>
+        </AboutSections>
+
+        <AboutSections className="columns is-vcentered">
+          <div className="column is-7 has-text-justified">
+            <h2 className="is-size-3 has-text-weight-bold has-text-black">
+              Meetups
+            </h2>
+            <br />
+            <br />
+            <h3 className="is-size-5 has-text-grey">
+              Meetups are the best way to collaborate. They help the community
+              to grow not only in context to members but also contributing to
+              giving talks and making members aware of latest technological
+              trends and making them learna and work on new things.
+            </h3>
+          </div>
+          <ImageTwo className="column is-5" />
+        </AboutSections>
+
+        {/* <div className="columns is-vcentered">
           <div className="column is-3 is-offset-2" >
               <ImageOne />
           </div>
@@ -102,7 +160,7 @@ export default class AboutUs extends React.Component {
               trends and making them learna and work on new things.
             </Description>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }

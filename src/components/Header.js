@@ -15,7 +15,7 @@ const Navbar = styled.nav`
 `;
 
 const Text = styled.a`
-  font-size: 15px;
+  font-size: 17px;
 `;
 
 const Link = styled.a`

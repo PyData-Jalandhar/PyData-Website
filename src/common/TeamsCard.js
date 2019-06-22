@@ -3,20 +3,9 @@ import styled from "styled-components";
 import "../components/index.scss";
 
 const Card = styled.div`
-  height: 300px;
-  width: 250px;
   border-radius: 10px;
   margin: 33px 0px;
-  @media (min-width: 1200px) {
-    width: 280px;
-  }
-  @media (min-width: 1440px) {
-    width: 300px;
-  }
-  @media (min-width: 1680px) {
-    width: 320px;
-  }
-  `;
+`;
 
 export default class TeamsCard extends Component {
   cards = () => {
