@@ -16,6 +16,15 @@ const AboutSections = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  @media (min-width: 1200px) {
+    min-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    min-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    min-width: 1200px;
+  }
 `;
 const ImageOne = styled.div`
   background-image: url(${PictureOne});
@@ -38,21 +47,21 @@ export default class AboutUs extends React.Component {
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">About Us</Heading>
         </div>
-        <div className="column is-8 is-offset-2 has-text-centered">
+        <AboutSections className="has-text-centered">
           <p className="is-size-5 has-text-grey">
             PyData is an educational program of NumFOCUS, a non-profit
             organization in the United States. PyData provides a forum for the
             international community of users and developers of data analysis
             tools to share ideas and learn from each other.
           </p>
-        </div>
+        </AboutSections>
 
         <Space className="columns" />
 
         <AboutSections className="columns is-vcentered">
           <ImageOne className="column is-5" />
           <div className="column is-7 has-text-justified">
-            <h2 className="is-size-4 has-text-weight-bold has-text-black">
+            <h2 className="is-size-3 has-text-weight-bold has-text-black">
               Open-Source Community
             </h2>
             <br />
@@ -68,7 +77,7 @@ export default class AboutUs extends React.Component {
 
         <AboutSections className="columns is-vcentered">
           <div className="column is-7 has-text-justified">
-            <h2 className="is-size-4 has-text-weight-bold has-text-black">
+            <h2 className="is-size-3 has-text-weight-bold has-text-black">
               Meetups
             </h2>{" "}
             <br />

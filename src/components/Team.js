@@ -7,6 +7,15 @@ const TeamContainer = styled.div`
   min-height: 500px;
   max-width: 900px;
   margin: 0 auto;
+  @media (min-width: 1200px) {
+    max-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    max-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    max-width: 1200px;
+  }
 `;
 
 const Heading = styled.p`
@@ -56,7 +65,7 @@ const MEMBERS_DATA = [
 export default class Team extends React.Component {
   render() {
     return (
-      <TeamContainer>
+      <TeamContainer id="team">
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">Team Members</Heading>
         </div>

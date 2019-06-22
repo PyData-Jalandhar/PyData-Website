@@ -17,6 +17,15 @@ const NavbarItemsContainer = styled.div`
   min-width: 900px;
   display: flex;
   margin: 0 auto;
+  @media (min-width: 1200px) {
+    min-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    min-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    min-width: 1200px;
+  }
 `;
 export default class Header extends React.Component {
   state = {

@@ -10,6 +10,15 @@ const Background = styled.section`
 `;
 const HeadingContainer = styled.div`
   max-width: 900px;
+  @media (min-width: 1200px) {
+    min-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    min-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    min-width: 1200px;
+  }
 `;
 
 export default class Hero extends React.Component {
@@ -20,7 +29,7 @@ export default class Hero extends React.Component {
         <section className="hero is-fullheight">
           <div className="hero-body">
             <HeadingContainer className="container">
-              <p className="title has-text-white is-size-2">PyData Jalandhar</p>
+              <p className="title has-text-white is-size-1">PyData Jalandhar</p>
               <h2 className="subtitle has-text-white is-size-4">
                 Become a part of the largest open source community.
               </h2>
