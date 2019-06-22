@@ -1,5 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import Picture from '../assets/logo2.png'
+
+const Logo = styled.div`
+  background-image: url(${Picture});
+  background-size: cover;
+  height: 70px;
+  width: 150px;
+`;
 
 const Navbar = styled.nav`
   padding-top: 1rem;
@@ -67,8 +75,9 @@ export default class Header extends React.Component {
         >
           <NavbarItemsContainer>
             <div className="navbar-brand">
-              <Link style={{ color }} href="./Hero.js">
-                <span className="is-size-3 has-text-weight-bold">PyData</span>
+              <Link style={{ color }} href="/">
+                {/* <span className="is-size-3 has-text-weight-bold">PyData</span> */}
+                <Logo />
               </Link>
             </div>
             <div
