@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import "../components/index.scss";
+import "./index.scss";
 
 const Card = styled.div`
   border-radius: 10px;

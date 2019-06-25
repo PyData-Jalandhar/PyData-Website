@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import TeamsCard from "../common/TeamsCard";
-import "./index.scss";
 
 const TeamContainer = styled.div`
   min-height: 500px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 10px auto;
   @media (min-width: 1200px) {
     max-width: 1000px;
   }
@@ -19,7 +18,7 @@ const TeamContainer = styled.div`
 `;
 
 const Heading = styled.p`
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 `;
 
 const CardContainer = styled.div`
