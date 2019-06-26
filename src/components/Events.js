@@ -42,8 +42,8 @@ export default class Events extends React.Component {
                 />
               </div>
               <div class="blog-slider__content">
-                <span class="blog-slider__code">26 December 2018</span>
-                <div class="blog-slider__title">PyData Jalandhar</div>
+                <span class="blog-slider__code">19 January 2019</span>
+                <div class="blog-slider__title">PyData First Meetup</div>
                 <div class="blog-slider__text">
                   Meetup is a planned event where like-minded people meet and
                   typically chat over cocktails and listen to a guest speaker.
@@ -64,8 +64,8 @@ export default class Events extends React.Component {
                 />
               </div>
               <div class="blog-slider__content">
-                <span class="blog-slider__code">26 December 2018</span>
-                <div class="blog-slider__title">Machine Learning</div>
+                <span class="blog-slider__code">16 Februray 2018</span>
+                <div class="blog-slider__title">PyData Second Meetup</div>
                 <div class="blog-slider__text">
                   Meetup is a planned event where like-minded people meet and
                   typically chat over cocktails and listen to a guest speaker.
@@ -87,8 +87,30 @@ export default class Events extends React.Component {
                 />
               </div>
               <div class="blog-slider__content">
-                <span class="blog-slider__code">2 January 2019</span>
-                <div class="blog-slider__title">Web Development</div>
+                <span class="blog-slider__code">23 March 2019</span>
+                <div class="blog-slider__title">Pydata Third Meetup</div>
+                <div class="blog-slider__text">
+                  Meetup is a planned event where like-minded people meet and
+                  typically chat over cocktails and listen to a guest speaker.
+                  Organizing one of these events is an excellent way to
+                  establish yourself or your business as a "go-to" person in
+                  your industry
+                </div>
+                {/* <a href="#" class="blog-slider__button">
+                  READ MORE
+                </a> */}
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">27 April 2019</span>
+                <div class="blog-slider__title">Pydata Fourth Meetup</div>
                 <div class="blog-slider__text">
                   Meetup is a planned event where like-minded people meet and
                   typically chat over cocktails and listen to a guest speaker.
