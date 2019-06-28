@@ -12,7 +12,7 @@ const Space = styled.div`
   width: 100%;
 `;
 
-const AboutSections = styled.div`
+const AboutSection1 = styled.div`
   max-width: 900px;
   margin: 0 auto;
   display: flex;
@@ -26,29 +26,55 @@ const AboutSections = styled.div`
   @media (min-width: 1680px) {
     min-width: 1200px;
   }
+  @media (max-width: 768px) {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
+const AboutSection2 = styled.div`
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 1200px) {
+    min-width: 1000px;
+  }
+  @media (min-width: 1440px) {
+    min-width: 1100px;
+  }
+  @media (min-width: 1680px) {
+    min-width: 1200px;
+  }
+  @media (max-width: 768px) {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+`;
 const ImageOne = styled.div`
   background-image: url(${PictureOne});
   background-size: cover;
   height: 20rem;
   width: 20rem;
-  @media only screen and (max-width:768px) {
+  @media only screen and (max-width: 768px) {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+  }
 `;
 
 const ImageTwo = styled.div`
   background-image: url(${PictureTwo});
   background-size: cover;
   height: 20rem;
-  width: 20rem;@media only screen and (max-width:768px) {
+  width: 20rem;
+  @media only screen and (max-width: 768px) {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+  }
 `;
 
 export default class AboutUs extends React.Component {
@@ -58,27 +84,27 @@ export default class AboutUs extends React.Component {
         <div class=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">About Us</Heading>
         </div>
-        <AboutSections className="has-text-centered">
+        <AboutSection1 className="has-text-centered">
           <p className="is-size-5 has-text-grey">
             PyData is an educational program of NumFOCUS, a non-profit
             organization in the United States. PyData provides a forum for the
             international community of users and developers of data analysis
             tools to share ideas and learn from each other.
           </p>
-        </AboutSections>
+        </AboutSection1>
 
         <Space className="columns" />
 
-        <AboutSections className="columns is-vcentered">
+        <AboutSection1 className="columns is-vcentered">
           <div className="column is-5">
             <ImageOne />
           </div>
           <div className="column is-7 has-text-justified">
+            <br />
+            <br />
             <h2 className="is-size-3 has-text-weight-bold has-text-black">
               Open-Source Community
             </h2>
-            <br />
-            <br />
             <h3 className="is-size-5 has-text-grey">
               Our community is diverse and highly motivated. It helps to help
               create and maintain communication within and among open source
@@ -86,15 +112,17 @@ export default class AboutUs extends React.Component {
               individuals.
             </h3>
           </div>
-        </AboutSections>
+        </AboutSection1>
 
-        <AboutSections className="columns is-vcentered">
+        <AboutSection2
+          className="columns is-vcentered"
+        >
           <div className="column is-7 has-text-justified">
+            <br />
+            <br />
             <h2 className="is-size-3 has-text-weight-bold has-text-black">
               Meetups
             </h2>
-            <br />
-            <br />
             <h3 className="is-size-5 has-text-grey">
               Meetups are the best way to collaborate. They help the community
               to grow not only in context to members but also contributing to
@@ -102,10 +130,10 @@ export default class AboutUs extends React.Component {
               trends and making them learna and work on new things.
             </h3>
           </div>
-          <div className="column is-5"> 
-            <ImageTwo className="is-pulled-right"/>
+          <div className="column is-5">
+            <ImageTwo className="is-pulled-right" />
           </div>
-        </AboutSections>
+        </AboutSection2>
       </section>
     );
   }

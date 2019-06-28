@@ -3,6 +3,7 @@ import styled from "styled-components";
 import "./index.scss";
 
 const Card = styled.div`
+  padding: 2px;
   border-radius: 10px;
   margin: 33px 0px;
 `;

@@ -22,10 +22,13 @@ const Heading = styled.p`
 `;
 
 const CardContainer = styled.div`
-  margin: 0 auto;
+  margin: 0 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media (max-width: 781px) {
+    justify-content: space-around;
+  }
 `;
 
 const MEMBERS_DATA = [

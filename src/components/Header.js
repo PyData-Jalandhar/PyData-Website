@@ -5,8 +5,8 @@ import Picture from '../assets/logo2.png'
 const Logo = styled.div`
   background-image: url(${Picture});
   background-size: cover;
-  height: 70px;
-  width: 150px;
+  height: 55px;
+  width: 125px;
 `;
 
 const Navbar = styled.nav`
@@ -15,7 +15,7 @@ const Navbar = styled.nav`
 `;
 
 const Text = styled.a`
-  font-size: 17px;
+  font-size: 16px;
 `;
 
 const Link = styled.a`
@@ -85,7 +85,7 @@ export default class Header extends React.Component {
               className="navbar-menu"
               style={{ float: "right" }}
             >
-              <div className="navbar-end">
+              <div className="navbar-start">
                 <Text className="navbar-item" style={{ color }} href="#home">
                   Home
                 </Text>
