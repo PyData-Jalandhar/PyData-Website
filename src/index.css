@@ -1,6 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
+#first{
+  padding-left: 0px;
+}
+#second{
+  padding-right: 0px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

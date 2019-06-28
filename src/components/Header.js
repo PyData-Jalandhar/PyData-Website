@@ -79,13 +79,20 @@ export default class Header extends React.Component {
                 {/* <span className="is-size-3 has-text-weight-bold">PyData</span> */}
                 <Logo />
               </Link>
+
+              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
             </div>
             <div
               id="navbarExampleTransparentExample"
               className="navbar-menu"
               style={{ float: "right" }}
             >
-              <div className="navbar-start">
+              <div className="navbar-end">
                 <Text className="navbar-item" style={{ color }} href="#home">
                   Home
                 </Text>

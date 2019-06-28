@@ -96,10 +96,10 @@ export default class AboutUs extends React.Component {
         <Space className="columns" />
 
         <AboutSection1 className="columns is-vcentered">
-          <div className="column is-5">
+          <div className="column is-5" id="first">
             <ImageOne />
           </div>
-          <div className="column is-7 has-text-justified">
+          <div className="column is-7 has-text-justified" id="second">
             <br />
             <br />
             <h2 className="is-size-3 has-text-weight-bold has-text-black">
@@ -117,7 +117,7 @@ export default class AboutUs extends React.Component {
         <AboutSection2
           className="columns is-vcentered"
         >
-          <div className="column is-7 has-text-justified">
+          <div className="column is-7 has-text-justified" id="first">
             <br />
             <br />
             <h2 className="is-size-3 has-text-weight-bold has-text-black">
@@ -130,7 +130,7 @@ export default class AboutUs extends React.Component {
               trends and making them learna and work on new things.
             </h3>
           </div>
-          <div className="column is-5">
+          <div className="column is-5" id="second">
             <ImageTwo className="is-pulled-right" />
           </div>
         </AboutSection2>
