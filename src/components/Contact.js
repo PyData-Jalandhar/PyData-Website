@@ -19,11 +19,11 @@ const BoxTwo = styled.textarea`
 
 const Button = styled.button`
     width: 100%;
-    background-color: #8B008B;
+    background-color: #60469b;
 `;
 
 const Text = styled.p`
-    color: #8B008B;
+    color: #60469b;
 `;
 
 const Icon= styled.span`

@@ -80,7 +80,7 @@ export default class Header extends React.Component {
                 <Logo />
               </Link>
 
-              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+              <div class="navbar-burger burger has-background-transparent" data-target="navbarExampleTransparentExample">
                 <span></span>
                 <span></span>
                 <span></span>

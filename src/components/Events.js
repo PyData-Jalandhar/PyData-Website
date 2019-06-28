@@ -37,7 +37,7 @@ export default class Events extends React.Component {
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710904/Pydata/Events/firstMeetup_tmezdy.jpg"
                   alt=""
                 />
               </div>
@@ -59,7 +59,7 @@ export default class Events extends React.Component {
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg"
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710902/Pydata/Events/secondMeetup_hevagj.jpg"
                   alt=""
                 />
               </div>
@@ -82,7 +82,7 @@ export default class Events extends React.Component {
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg"
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710900/Pydata/Events/thirdMeetup_uw6iyn.jpg"
                   alt=""
                 />
               </div>
@@ -104,7 +104,7 @@ export default class Events extends React.Component {
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg"
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710905/Pydata/Events/fourthMeetup_xykldr.jpg"
                   alt=""
                 />
               </div>
