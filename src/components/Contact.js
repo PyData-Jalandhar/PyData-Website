@@ -26,6 +26,13 @@ const Text = styled.p`
   color: #60469b;
 `;
 
+const Text1 = styled.p`
+  color: #60469b;
+  @media (max-width: 730px) {
+    margin-bottom: 10px;
+  }
+`;
+
 const Icon = styled.span`
   margin: 0.75rem;
 `;
@@ -39,7 +46,7 @@ const FooterContainer = styled.div`
     flex-direction: column;
   }
   @media (min-width: 1200px) {
-    max-width: 900px;
+    max-width: 1000px;
   }
   @media (min-width: 1440px) {
     max-width: 1100px;
@@ -161,8 +168,8 @@ const Contact = () => (
     <FooterContainer>
       <FooterContent className="has-text-centered">
         <p />
-        <Text className="is-size-5" style={{marginBottom: "10px"}}>FOLLOW US</Text>
-        <p className="is-size-5 has-text-grey has-text-centered" >
+        <Text1 className="is-size-5">FOLLOW US</Text1>
+        <p className="is-size-5 has-text-grey has-text-centered">
           <Icon>
             <a href="https://www.instagram.com/pyjalandhar/" target="blank_">
               <i className="is-size-3 fab fa-instagram has-text-grey" />
@@ -182,7 +189,7 @@ const Contact = () => (
       </FooterContent>
       <FooterContent className="has-text-centered">
         <p />
-        <Text className="is-size-5">EMAIL US AT</Text>
+        <Text className="is-size-5">EMAIL</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           pydatajalandhar@gmail.com
         </p>
