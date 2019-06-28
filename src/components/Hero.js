@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "../assets/hero6.jpg";
 import Header from "./Header";
 
 const Background = styled.section`
-  background-image: url(${Image});
+  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561719649/Pydata/landing_sikyl2.jpg);
   background-size: cover;
   background-attachment: fixed;
 `;

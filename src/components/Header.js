@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Picture from '../assets/logo2.png'
+import Picture from "../assets/logo2.png";
 
 const Logo = styled.div`
   background-image: url(${Picture});
@@ -25,6 +25,12 @@ const NavbarItemsContainer = styled.div`
   min-width: 900px;
   display: flex;
   margin: 0 auto;
+  @media (max-width: 1023px) {
+    justify-content: center;
+  }
+  @media (max-width: 900px) {
+    min-width: 300px;
+  }
   @media (min-width: 1200px) {
     min-width: 1000px;
   }
@@ -45,7 +51,7 @@ export default class Header extends React.Component {
     if (window.scrollY > 50) {
       this.setState({
         backgroundColor: "white",
-        color: "#4a4a4a",
+        color: "#60469b",
         boxShadow: "0px 1px 3px rgba(0, 0, 0, 0.2)"
       });
     } else {
@@ -62,7 +68,7 @@ export default class Header extends React.Component {
   render() {
     const { backgroundColor, color, boxShadow } = this.state;
     return (
-      <div class="container" id="home">
+      <div className="container" id="home">
         <Navbar
           className="navbar is-fixed-top is-transparent"
           style={{
@@ -70,7 +76,7 @@ export default class Header extends React.Component {
             color,
             boxShadow,
             paddingTop: "0.5rem",
-            paddingBottom: "0.5rem",
+            paddingBottom: "0.5rem"
           }}
         >
           <NavbarItemsContainer>
@@ -80,12 +86,14 @@ export default class Header extends React.Component {
                 <Logo />
               </Link>
 
-              <div class="navbar-burger burger has-background-transparent" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-
+              {/* <div
+                class="navbar-burger burger has-background-transparent"
+                data-target="navbarExampleTransparentExample"
+              >
+                <span />
+                <span />
+                <span />
+              </div> */}
             </div>
             <div
               id="navbarExampleTransparentExample"

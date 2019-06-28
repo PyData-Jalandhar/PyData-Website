@@ -18,6 +18,8 @@
   border-radius: 10px;
 }
 
+@import "https://fonts.googleapis.com/css?family=Do+Hyeon";
+
 $color-box-1: #0f9bc0;
 $color-box-2: rgba(34, 65, 154, 0.8);
 $color-box-3: #57ccfd;
@@ -208,7 +210,7 @@ $color-box-7: #de8b3e;
       flex-direction: column;
       list-style: none;
       position: absolute;
-      top: -50px;
+      top: -53px;
       right: 7px;
       padding-top: 60px;
       transition: all 0.4s ease;

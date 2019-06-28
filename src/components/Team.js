@@ -22,12 +22,12 @@ const Heading = styled.p`
 `;
 
 const CardContainer = styled.div`
-  margin: 0 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   @media (max-width: 781px) {
     justify-content: space-around;
+    margin: 0 10px;
   }
 `;
 
@@ -35,7 +35,7 @@ const MEMBERS_DATA = [
   {
     name: "Abhay Puri",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561109758/Pydata/abhay_ffbypb.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561741766/Pydata/abhay_ffbypb.jpg"
   },
   {
     name: "Anushka Beri",
@@ -68,7 +68,7 @@ export default class Team extends React.Component {
   render() {
     return (
       <TeamContainer id="team">
-        <div class=" column has-text-centered">
+        <div className=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">Team Members</Heading>
         </div>
         <CardContainer>

@@ -13,26 +13,26 @@ export default class TeamsCard extends Component {
     const { data } = this.props;
     return data.map(member => (
       <Card>
-        <div class="card__collection clear-fix">
-          <div class="cards cards--three">
-            <img src={member.imageUrl} class="img-responsive" alt="" />
-            <span class="cards--three__rect-1">
-              <span class="shadow-1" />
+        <div className="card__collection clear-fix">
+          <div className="cards cards--three">
+            <img src={member.imageUrl} className="img-responsive" alt="" />
+            <span className="cards--three__rect-1">
+              <span className="shadow-1" />
               <p>{member.name}</p>
             </span>
-            <span class="cards--three__rect-2">
-              <span class="shadow-2" />
+            <span className="cards--three__rect-2">
+              <span className="shadow-2" />
             </span>
-            <span class="cards--three__circle" />
-            <ul class="cards--three__list">
+            <span className="cards--three__circle" />
+            <ul className="cards--three__list">
               <li>
-                <i class="fab fa-facebook-f" />
+                <i className="fab fa-facebook-f" />
               </li>
               <li>
-                <i class="fab fa-twitter" />
+                <i className="fab fa-twitter" />
               </li>
               <li>
-                <i class="fab fa-linkedin-in" />
+                <i className="fab fa-linkedin-in" />
               </li>
             </ul>
           </div>

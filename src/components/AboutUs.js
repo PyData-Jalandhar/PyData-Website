@@ -7,15 +7,19 @@ const Heading = styled.p`
   margin-top: 2rem;
 `;
 
-const Space = styled.div`
-  height: 3rem;
-  width: 100%;
+const SectionHeadings = styled.h2`
+  margin-bottom: 10px;
+  @media (max-width: 768px) {
+    text-align: center;
+    margin-bottom: 18px;
+  }
 `;
 
 const AboutSection1 = styled.div`
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
+  text-align: justify;
   justify-content: space-between;
   @media (min-width: 1200px) {
     min-width: 1000px;
@@ -27,16 +31,18 @@ const AboutSection1 = styled.div`
     min-width: 1200px;
   }
   @media (max-width: 768px) {
-    margin: 0 20px;
+    margin: 50px 20px;
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    flex-direction: column-reverse;
   }
 `;
 
 const AboutSection2 = styled.div`
   max-width: 900px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
+  text-align: justify;  
   justify-content: space-between;
   @media (min-width: 1200px) {
     min-width: 1000px;
@@ -48,16 +54,17 @@ const AboutSection2 = styled.div`
     min-width: 1200px;
   }
   @media (max-width: 768px) {
-    margin: 0 20px;
+    margin: 40px 20px;
     display: flex;
-    flex-direction: column-reverse;
+    text-align: center;
+    flex-direction: column;
   }
 `;
 const ImageOne = styled.div`
   background-image: url(${PictureOne});
   background-size: cover;
-  height: 20rem;
-  width: 20rem;
+  height: 22rem;
+  width: 22rem;
   @media only screen and (max-width: 768px) {
     display: block;
     margin-left: auto;
@@ -68,7 +75,7 @@ const ImageOne = styled.div`
 const ImageTwo = styled.div`
   background-image: url(${PictureTwo});
   background-size: cover;
-  height: 20rem;
+  height: 23rem;
   width: 20rem;
   @media only screen and (max-width: 768px) {
     display: block;
@@ -80,8 +87,8 @@ const ImageTwo = styled.div`
 export default class AboutUs extends React.Component {
   render() {
     return (
-      <section class="container-is-fluid" id="about">
-        <div class=" column has-text-centered">
+      <section className="container-is-fluid" id="about">
+        <div className=" column has-text-centered">
           <Heading className="is-size-2 has-text-black">About Us</Heading>
         </div>
         <AboutSection1 className="has-text-centered">
@@ -92,19 +99,14 @@ export default class AboutUs extends React.Component {
             tools to share ideas and learn from each other.
           </p>
         </AboutSection1>
-
-        <Space className="columns" />
-
         <AboutSection1 className="columns is-vcentered">
           <div className="column is-5" id="first">
             <ImageOne />
           </div>
-          <div className="column is-7 has-text-justified" id="second">
-            <br />
-            <br />
-            <h2 className="is-size-3 has-text-weight-bold has-text-black">
+          <div className="column is-7" id="second">
+            <SectionHeadings className="is-size-3 has-text-weight-bold has-text-black">
               Open-Source Community
-            </h2>
+            </SectionHeadings>
             <h3 className="is-size-5 has-text-grey">
               Our community is diverse and highly motivated. It helps to help
               create and maintain communication within and among open source
@@ -114,15 +116,11 @@ export default class AboutUs extends React.Component {
           </div>
         </AboutSection1>
 
-        <AboutSection2
-          className="columns is-vcentered"
-        >
-          <div className="column is-7 has-text-justified" id="first">
-            <br />
-            <br />
-            <h2 className="is-size-3 has-text-weight-bold has-text-black">
+        <AboutSection2 className="columns is-vcentered">
+          <div className="column is-7" id="first">
+            <SectionHeadings className="is-size-3 has-text-weight-bold has-text-black">
               Meetups
-            </h2>
+            </SectionHeadings>
             <h3 className="is-size-5 has-text-grey">
               Meetups are the best way to collaborate. They help the community
               to grow not only in context to members but also contributing to
