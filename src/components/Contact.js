@@ -31,10 +31,13 @@ const Icon = styled.span`
 `;
 
 const Footer = styled.div`
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    }
     @media (min-width: 1200px) {
     max-width: 1000px;
     }
