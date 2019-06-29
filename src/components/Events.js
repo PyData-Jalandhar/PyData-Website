@@ -33,7 +33,7 @@ export default class Events extends React.Component {
       <EventsContainer id="events">
         <div className="column has-text-centered">
           <Heading className="is-size-2 has-text-black">
-            OUR PAST EVENTS
+            Our Past Events
           </Heading>
         </div>
         <div className="blog-slider">

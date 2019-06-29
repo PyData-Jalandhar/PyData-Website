@@ -30,6 +30,22 @@ const Icon = styled.span`
   margin: 0.75rem;
 `;
 
+const Footer = styled.div`
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 1200px) {
+    max-width: 1000px;
+    }
+    @media (min-width: 1440px) {
+      max-width: 1100px;
+    }
+    @media (min-width: 1680px) {
+      max-width: 1200px;
+    }
+`;
+
 const Contact = () => (
   <div className="section" id="contact">
     <div className="columns">
@@ -133,14 +149,13 @@ const Contact = () => (
         </div>
       </div>
     </div>
-    <div className="columns">
-      <div className="column is-2 is-offset-2 has-text-centered">
+    <Footer className="columns">
+      <div className="column is-2 has-text-centered">
         <p />
         <Text className="is-size-5">Follow US</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           <Icon>
             <a href="https://www.instagram.com/pyjalandhar/" target="blank_">
-              {" "}
               <i className="is-size-3 fab fa-instagram has-text-grey" />
             </a>
           </Icon>
@@ -156,14 +171,21 @@ const Contact = () => (
           </Icon>
         </p>
       </div>
-      <div className="column is-2 is-offset-1 has-text-centered">
+      <div className="column is-2 has-text-centered">
         <p />
-        <Text className="is-size-5">EMAIL US AT</Text>
+        <Text className="is-size-5">Email Us At</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           pydatajalandhar@gmail.com
         </p>
       </div>
-    </div>
+      <div className="column is-2 has-text-centered">
+        <p />
+        <Text className="is-size-5">Call Us At</Text>
+        <p className="is-size-5 has-text-grey has-text-centered">
+          9646895049
+        </p>
+      </div>
+    </Footer>
   </div>
 );
 export default Contact;
