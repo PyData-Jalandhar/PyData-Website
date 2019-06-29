@@ -26,40 +26,8 @@ const Text = styled.p`
   color: #60469b;
 `;
 
-const Text1 = styled.p`
-  color: #60469b;
-  @media (max-width: 730px) {
-    margin-bottom: 10px;
-  }
-`;
-
 const Icon = styled.span`
   margin: 0.75rem;
-`;
-
-const FooterContainer = styled.div`
-  max-width: 900px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  @media (max-width: 730px) {
-    flex-direction: column;
-  }
-  @media (min-width: 1200px) {
-    max-width: 1000px;
-  }
-  @media (min-width: 1440px) {
-    max-width: 1100px;
-  }
-  @media (min-width: 1680px) {
-    max-width: 1200px;
-  }
-`;
-
-const FooterContent = styled.div`
-  @media (max-width: 730px) {
-    margin: 20px auto;
-  }
 `;
 
 const Contact = () => (
@@ -165,13 +133,14 @@ const Contact = () => (
         </div>
       </div>
     </div>
-    <FooterContainer>
-      <FooterContent className="has-text-centered">
+    <div className="columns">
+      <div className="column is-2 is-offset-2 has-text-centered">
         <p />
-        <Text1 className="is-size-5">FOLLOW US</Text1>
+        <Text className="is-size-5">Follow US</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           <Icon>
             <a href="https://www.instagram.com/pyjalandhar/" target="blank_">
+              {" "}
               <i className="is-size-3 fab fa-instagram has-text-grey" />
             </a>
           </Icon>
@@ -186,22 +155,15 @@ const Contact = () => (
             </a>
           </Icon>
         </p>
-      </FooterContent>
-      <FooterContent className="has-text-centered">
+      </div>
+      <div className="column is-2 is-offset-1 has-text-centered">
         <p />
-        <Text className="is-size-5">EMAIL</Text>
+        <Text className="is-size-5">EMAIL US AT</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           pydatajalandhar@gmail.com
         </p>
-      </FooterContent>
-      <FooterContent className="has-text-centered">
-        <p />
-        <Text className="is-size-5">CALL US AT</Text>
-        <p className="is-size-5 has-text-grey has-text-centered">
-          +91 9646895049
-        </p>
-      </FooterContent>
-    </FooterContainer>
+      </div>
+    </div>
   </div>
 );
 export default Contact;
