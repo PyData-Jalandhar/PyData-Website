@@ -11,8 +11,8 @@ const Card = styled.div`
 export default class TeamsCard extends Component {
   cards = () => {
     const { data } = this.props;
-    return data.map(member => (
-      <Card>
+    return data.map((member, index) => (
+      <Card key={index + 1}>
         <div className="card__collection clear-fix">
           <div className="cards cards--three">
             <img src={member.imageUrl} className="img-responsive" alt="" />
