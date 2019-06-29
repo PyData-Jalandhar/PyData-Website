@@ -22,7 +22,7 @@ const Heading = styled.p`
   margin-top: 3rem;
   margin-bottom: 2rem;
   @media (max-width: 768px) {
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 0;
   }
 `;

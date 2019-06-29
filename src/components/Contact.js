@@ -26,6 +26,13 @@ const Text = styled.p`
   color: #60469b;
 `;
 
+const Text1 = styled.p`
+  color: #60469b;
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+`;
+
 const Icon = styled.span`
   margin: 0.75rem;
 `;
@@ -47,6 +54,12 @@ const Footer = styled.div`
     @media (min-width: 1680px) {
       max-width: 1200px;
     }
+`;
+
+const FooterContent = styled.div`
+  @media (max-width: 768px) {
+    margin: 20px auto;
+  }
 `;
 
 const Contact = () => (
@@ -153,9 +166,9 @@ const Contact = () => (
       </div>
     </div>
     <Footer className="columns">
-      <div className="column is-2 has-text-centered">
+      <FooterContent className="has-text-centered">
         <p />
-        <Text className="is-size-5">Follow US</Text>
+        <Text1 className="is-size-5">Follow Us</Text1>
         <p className="is-size-5 has-text-grey has-text-centered">
           <Icon>
             <a href="https://www.instagram.com/pyjalandhar/" target="blank_">
@@ -173,21 +186,21 @@ const Contact = () => (
             </a>
           </Icon>
         </p>
-      </div>
-      <div className="column is-2 has-text-centered">
+      </FooterContent>
+      <FooterContent className="has-text-centered">
         <p />
-        <Text className="is-size-5">Email Us At</Text>
+        <Text className="is-size-5">Email At</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
           pydatajalandhar@gmail.com
         </p>
-      </div>
-      <div className="column is-2 has-text-centered">
+      </FooterContent>
+      <FooterContent className="has-text-centered">
         <p />
         <Text className="is-size-5">Call Us At</Text>
         <p className="is-size-5 has-text-grey has-text-centered">
-          9646895049
+          +91 9646895049
         </p>
-      </div>
+      </FooterContent>
     </Footer>
   </div>
 );

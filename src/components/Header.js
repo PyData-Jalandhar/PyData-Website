@@ -76,7 +76,8 @@ export default class Header extends React.Component {
             color,
             boxShadow,
             paddingTop: "0.5rem",
-            paddingBottom: "0.5rem"
+            paddingBottom: "0.5rem",
+            transition: "all 0.2s ease-in-out"
           }}
         >
           <NavbarItemsContainer>
