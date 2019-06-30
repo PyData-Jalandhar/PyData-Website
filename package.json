@@ -46,6 +46,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PyData-Jalandhar/pydata-website/issues"
-  },
-  "homepage": "https://github.com/PyData-Jalandhar/pydata-website#readme"
+  }
 }
