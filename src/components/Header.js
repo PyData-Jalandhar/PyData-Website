@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Picture from "../assets/logo2.png";
 
 const Logo = styled.div`
-  background-image: url(${Picture});
+  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561879682/Pydata/logo2_ekiqfj.png);
   background-size: cover;
   height: 55px;
   width: 125px;

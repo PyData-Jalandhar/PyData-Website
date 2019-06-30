@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import PictureOne from "../assets/picture1.png";
-import PictureTwo from "../assets/picture2.png";
 
 const Heading = styled.p`
   margin-top: 2rem;
