@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Header from "./Header";
 
 const Background = styled.section`
-  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561719649/Pydata/landing_sikyl2.jpg);
+  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561878634/Pydata/landing_image_ogbjkn.jpg);
   background-size: cover;
   background-attachment: fixed;
 `;

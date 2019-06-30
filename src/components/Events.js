@@ -41,8 +41,8 @@ export default class Events extends React.Component {
             <div className="blog-slider__item swiper-slide">
               <div className="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710904/Pydata/Events/firstMeetup_tmezdy.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/firstmeetup_xalvcz.jpg"
+                  alt="PyData First Meetup"
                 />
               </div>
               <div className="blog-slider__content">
@@ -63,8 +63,8 @@ export default class Events extends React.Component {
             <div className="blog-slider__item swiper-slide">
               <div className="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710902/Pydata/Events/secondMeetup_hevagj.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/secondmeetup_wyoktb.jpg"
+                  alt="PyData Second Meetup"
                 />
               </div>
               <div className="blog-slider__content">
@@ -86,8 +86,8 @@ export default class Events extends React.Component {
             <div className="blog-slider__item swiper-slide">
               <div className="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710900/Pydata/Events/thirdMeetup_uw6iyn.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/thirdmeetup_f8hdbp.jpg"
+                  alt="Pydata Third Meetup"
                 />
               </div>
               <div className="blog-slider__content">
@@ -108,8 +108,8 @@ export default class Events extends React.Component {
             <div className="blog-slider__item swiper-slide">
               <div className="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561710905/Pydata/Events/fourthMeetup_xykldr.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/fourthmeetup_ygwcbp.jpg"
+                  alt="Pydata Fourth Meetup"
                 />
               </div>
               <div className="blog-slider__content">

@@ -61,7 +61,7 @@ const AboutSection2 = styled.div`
   }
 `;
 const ImageOne = styled.div`
-  background-image: url(${PictureOne});
+  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/picture1_ijrene.png);
   background-size: cover;
   height: 22rem;
   width: 22rem;
@@ -73,7 +73,7 @@ const ImageOne = styled.div`
 `;
 
 const ImageTwo = styled.div`
-  background-image: url(${PictureTwo});
+  background-image: url(https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/picture2_yq1ah7.png);
   background-size: cover;
   height: 23rem;
   width: 20rem;

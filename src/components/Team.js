@@ -35,32 +35,32 @@ const MEMBERS_DATA = [
   {
     name: "Abhay Puri",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561741766/Pydata/abhay_ffbypb.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/abhay_upl6z2.jpg"
   },
   {
     name: "Anushka Beri",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561219283/Pydata/anushka.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/anushka_ilpacf.jpg"
   },
   {
     name: "Rahul Syal",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561139880/Pydata/rahuls_ktpqku.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg"
   },
   {
     name: "Saurabh Wani",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561140860/Pydata/saurabh_gvhugn.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878961/Pydata/saurabh_bp5aqw.jpg"
   },
   {
     name: "Harsh",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561113273/Pydata/harsh_c4w8o3.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/harsh_xmgdna.jpg"
   },
   {
     name: "Shruti Kalra",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561111941/Pydata/shruti_wskxnr.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/shruti_bgqvz8.jpg"
   }
 ];
 
