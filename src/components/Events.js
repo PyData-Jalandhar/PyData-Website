@@ -108,8 +108,8 @@ export default class Events extends React.Component {
             <div className="blog-slider__item swiper-slide">
               <div className="blog-slider__img">
                 <img
-                  src="https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/fourthmeetup_ygwcbp.jpg"
-                  alt="Pydata Fourth Meetup"
+                  src= "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878191/Pydata/Events/fourthmeetup_ygwcbp.jpg"
+                  alt= "Pydata Fourth Meetup"
                 />
               </div>
               <div className="blog-slider__content">
@@ -122,9 +122,10 @@ export default class Events extends React.Component {
                   establish yourself or your business as a "go-to" person in
                   your industry
                 </div>
-                {/* <a href="#" className="blog-slider__button">
-                  READ MORE
-                </a> */}
+                <a href= "https://www.meetup.com/PyData-Jalandhar/?_xtd=gqFyqTIzNDYwNjkwNKFwp2FuZHJvaWQ&from=ref" 
+                target= "blank" className="blog-slider__button">
+                  <span className="has-text-black">Read More</span>
+                </a>
               </div>
             </div>
           </div>
