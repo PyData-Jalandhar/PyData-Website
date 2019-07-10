@@ -124,7 +124,7 @@ export default class Events extends React.Component {
                 </div>
                 <a href= "https://www.meetup.com/PyData-Jalandhar/?_xtd=gqFyqTIzNDYwNjkwNKFwp2FuZHJvaWQ&from=ref" 
                 target= "blank" className="blog-slider__button">
-                  <span className="has-text-black">Read More</span>
+                  <span>Read More</span>
                 </a>
               </div>
             </div>
