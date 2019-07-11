@@ -71,7 +71,10 @@ const MEMBERS_DATA = [
   {
     name: "Shruti Kalra",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/shruti_bgqvz8.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/shruti_bgqvz8.jpg",
+      linkedIn: "https://www.linkedin.com/in/shruti-kalra32",
+      twitter: "https://www.twitter.com/shrutikalra32",
+      facebook: "https://m.facebook.com/shruti.kalra.9"
   }
 ];
 
