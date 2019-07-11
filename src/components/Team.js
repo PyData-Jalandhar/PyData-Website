@@ -35,22 +35,33 @@ const MEMBERS_DATA = [
   {
     name: "Abhay Puri",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/abhay_upl6z2.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/abhay_upl6z2.jpg",
+    linkedIn: "https://in.linkedin.com/in/abhaypuri98",
+    twitter: "http://www.twitter.com/abhaypuri98",
+    facebook: "https://m.facebook.com/abhay.puri.14"
   },
   {
     name: "Anushka Beri",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/anushka_ilpacf.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/anushka_ilpacf.jpg",
+    linkedIn: "https://www.linkedin.com/in/anushka-beri-1b767a140",
+    twitter: "https://twitter.com/thisbutterfly",
+    facebook: "https://m.facebook.com/thisbutterfly"
   },
   {
     name: "Rahul Syal",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg",
+      linkedIn:"https://www.linkedin.com/in/rahul-syal-646380151",
+      facebook: "https://m.facebook.com/rahul.syal.5661",
   },
   {
     name: "Saurabh Wani",
     imageUrl:
-      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878961/Pydata/saurabh_bp5aqw.jpg"
+      "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878961/Pydata/saurabh_bp5aqw.jpg",
+    linkedIn: "https://www.linkedin.com/in/saurabh-wani",
+    twitter: "https://twitter.com/SaurabhWani10",
+    facebook: "https://www.facebook.com/saurabh.wani.921"
   },
   {
     name: "Harsh",

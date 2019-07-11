@@ -228,6 +228,7 @@ $color-box-7: #de8b3e;
         font-size: 12px;
         transition: all 0.3s ease;
         transform: translateX(500%);
+        cursor: pointer;
 
         &:nth-child(1) {
           transition-delay: 0.2s;

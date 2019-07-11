@@ -25,15 +25,21 @@ export default class TeamsCard extends Component {
             </span>
             <span className="cards--three__circle" />
             <ul className="cards--three__list">
-              <li>
-                <i className="fab fa-facebook-f" />
-              </li>
-              <li>
-                <i className="fab fa-twitter" />
-              </li>
-              <li>
-                <i className="fab fa-linkedin-in" />
-              </li>
+              <a href={member.facebook} target="_blank">
+                <li>
+                  <i className="fab fa-facebook-f" />
+                </li>
+              </a>
+              <a href={member.twitter} target="_blank">
+                <li>
+                  <i className="fab fa-twitter" />
+                </li>
+              </a>
+              <a href={member.linkedIn} target="_blank">
+                <li>
+                  <i className="fab fa-linkedin-in" />
+                </li>
+              </a>
             </ul>
           </div>
         </div>
